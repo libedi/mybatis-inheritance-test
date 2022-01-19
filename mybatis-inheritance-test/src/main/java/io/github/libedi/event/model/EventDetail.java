@@ -5,7 +5,7 @@ import lombok.ToString;
 
 @Getter
 @ToString
-public class EventDetail {
+public abstract class EventDetail {
 	private String detailName;
 
 }
